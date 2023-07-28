@@ -1,3 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
 :root{
     --branco-principal: #FFFFFF;
     --cinza-secundario: #C0C0C0;
@@ -11,5 +17,31 @@ body{
 }
 
 .apresentacao-titulo{
-    
+    font-size: 28px;
+}
+
+.principal{
+    background-image: url(img/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container--botao{
+    background-color: var(--botao-azul);
+    color: var(--branco-principal);
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 5px;
+    display: block;
+}
+
+.container--botao2 {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
 }
