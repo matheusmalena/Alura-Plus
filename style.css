@@ -21,7 +21,7 @@ body{
     font-size: 16px;
 }
 
-.container-titulo{
+.container--titulo{
     font-size: 28px;
 }
 
@@ -89,6 +89,84 @@ color: var(--cinza-secundario);
     margin-bottom: 0.1em;
 }
 
-.descricao--paragraf{
+.descricao--paragrafo{
     color: var(--cinza-secundario);
+}
+
+.terceiro{
+        align-items: center;
+        margin: 0 10em;
+    
+}
+
+
+.container--botao3{
+        background-color: var(--botao-azul);
+        color: var(--branco-principal);
+        text-decoration: none;
+        padding: 1em;
+        border-radius: 5px;
+        display: inline-block;
+        margin-bottom: 1em;
+        margin-top: 1em;;
+}
+
+.container--descricao{
+    padding: 2em;;
+}
+
+.dispositivos--lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.dispositivos{
+    text-align: center;
+
+}
+
+.dispositivos--titulo{
+    font-size: 48px;
+    color: var(--branco-principal);
+}
+
+.lista--item{
+    font-size: 32px;
+    color: var(--branco-principal);
+}
+
+.rodape{
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.rodape--logo{
+    margin-bottom: 2em;
+}
+
+.rodape--lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.lista--link a{
+    color: var(--branco-principal);
+    margin-left: 1em;
+    text-decoration: none;
+    
+}
+
+.rodape--paragrafo{
+    font-size: 14px;
+    color: var(--cinza-secundario);
+    margin: 1em 0;
+}
+
+.lista--link a:hover{
+    color: var(--botao-azul);
 }
